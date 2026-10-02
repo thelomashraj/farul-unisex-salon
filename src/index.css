@@ -222,7 +222,7 @@ em { font-weight: 400; color: var(--oxblood); }
   .nav-links, .nav > .button { display: none; }
   .menu-toggle { display: block; padding: 9px 0 9px 20px; background: transparent; color: var(--oxblood); font-size: 12px; text-transform: uppercase; letter-spacing: .12em; }
   /* backdrop-filter traps position:fixed children inside the header; drop it while the menu is open */
-  .nav.is-open { backdrop-filter: none; -webkit-backdrop-filter: none; }
+  .nav.is-open { backdrop-filter: none; }
   .mobile-menu { position: fixed; inset: 0; z-index: -1; padding: 120px 24px 40px; display: flex; flex-direction: column; background: var(--espresso); color: var(--bone); }
   .mobile-menu > div a { display: block; font-family: var(--serif); font-size: clamp(2.9rem, 14vw, 5rem); line-height: 1.15; }
   .mobile-menu > a { margin-top: auto; color: var(--brass); }
