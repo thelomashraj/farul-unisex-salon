@@ -1,0 +1,10 @@
+{
+  "description": "A premium editorial-style website showcasing salon services, artists, bridal packages, and training courses with seamless booking via WhatsApp for a unisex salon.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
